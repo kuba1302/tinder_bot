@@ -3,7 +3,8 @@ from time import sleep
 import random
 import pyautogui
 
-class tinder_bot():
+#CHANGE 2
+class tinder_bot:
     def __init__(self):
         path = r"C:\Users\Admin\Desktop\chromedriver.exe"
         self.driver = webdriver.Chrome(path)
