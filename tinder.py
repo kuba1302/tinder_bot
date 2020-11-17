@@ -138,6 +138,7 @@ class tinder_bot:
         msg = self.driver.find_elements_by_class_name("text")
         a = msg[0].text
 
+
     def menu(self):
         def options():
             print('What do you want to do?')
@@ -154,8 +155,10 @@ class tinder_bot:
                 options()
                 pass
 
+"""
 if __name__ == "__main__":
     bot = tinder_bot()
     option = 1
     bot.login()
     bot.menu()
+    """"
