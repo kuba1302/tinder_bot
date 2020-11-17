@@ -1,6 +1,6 @@
 import math
 import random
-
+import numpy as np
 
 
 
@@ -75,7 +75,31 @@ def zad1(a):
     x = (a * 1.8) + 32
     print('Temperatura w Fahrenheitach')
     return x
+def remove_last(a):
+    a = list(a)
+    if len(a) != 0:
+        a.pop()
+        return(a)
+    else:
+        return(a)
 
-#
-
-
+#NUMPY ( SKONCZYC FUNKCJE POTEM!!!!!!!!!)
+def zera():
+    a = np.zeros((3,3))
+    print(a)
+def m3d():
+    a = np.random.rand(3,3,3) * 100000
+    print(a)
+def m2d():
+    a = np.random.rand(3,3)
+    b = np.max(a)
+    print(a)
+    print(b)
+def m10():
+    m = np.zeros((10,10))
+    m[:,0] = 1
+    m[:, 9] = 1
+    m[0,:] = 1
+    m[9,:] = 1
+    print(m)
+m10()
