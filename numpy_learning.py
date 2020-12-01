@@ -1,7 +1,8 @@
 import math
 import random
 import numpy as np
-
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def zad1():
@@ -102,4 +103,18 @@ def m10():
     m[0,:] = 1
     m[9,:] = 1
     print(m)
-m10()
+def chess():
+    pass
+def rysowanko():
+    sns.set_style('darkgrid')
+    fig, ax = plt.subplots(figsize = (12,8))
+    sns.scatterplot([10],[5])
+    plt.show()
+
+def test3():
+    a = 'kuba'
+    b = 'sas'
+    c = 'dassd'
+    d = 'dsasda'
+    print(a)
+test3

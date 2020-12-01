@@ -155,10 +155,10 @@ class tinder_bot:
                 options()
                 pass
 
-"""
+
 if __name__ == "__main__":
     bot = tinder_bot()
     option = 1
     bot.login()
     bot.menu()
-    """"
+
